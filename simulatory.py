@@ -2,11 +2,10 @@ from module import Pet
 
 name = input("Enter a name for your pet: ")
 
+pet = Pet(name)
 
-hunger = 50
-happeness = 50
-energy = 50
-pet = Pet(name, hunger, happeness, energy)
+
+
 while True:
     print("Commands: Feed | Play | Sleep | Check Health | Status | Quit ")
     command = input("What would you like to do next? ")
